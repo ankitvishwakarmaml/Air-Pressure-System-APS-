@@ -1,0 +1,14 @@
+pymongo
+pandas
+numpy
+scikit-learn
+pymongo
+python-dotenv
+certifi
+PyYAML
+dill
+scipy
+imblearn
+xgboost
+from_root
+-e .
