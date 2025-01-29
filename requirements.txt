@@ -11,4 +11,5 @@ scipy
 imblearn
 xgboost
 from_root
+flask
 -e .

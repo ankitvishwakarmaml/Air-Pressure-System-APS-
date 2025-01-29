@@ -17,7 +17,7 @@ SCHEMA_DROP_COLS = "drop_columns"
 SAVED_MODEL_DIR =os.path.join("saved_models")
 
 """
- data  ingestion realted constant values 
+ data  ingestion related constants values 
 """
 
 DATA_INGESTION_COLLECTION_NAME: str = "sensor"
@@ -28,7 +28,7 @@ DATA_INGESTION_TRAIN_TEST_SPLIT_RATION: float = 0.2
 
 
 """
-Data Validation realted contant start with DATA_VALIDATION VAR NAME
+Data Validation related contants start with DATA_VALIDATION VAR NAME
 """
 
 DATA_VALIDATION_DIR_NAME: str = "data_validation"
@@ -39,7 +39,7 @@ DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
 
 
 """
-Data Transformation ralated constant start with DATA_TRANSFORMATION VAR NAME
+Data Transformation related constants 
 """
 
 DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
@@ -48,7 +48,7 @@ DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
 
 
 """
-Model Trainer ralated constant start with MODE TRAINER VAR NAME
+Model Trainer related constants 
 """
 
 MODEL_TRAINER_DIR_NAME: str = "model_trainer"
@@ -59,8 +59,15 @@ MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD: float = 0.05
 
 
 """
-Model Trainer ralated constant start with MODE TRAINER VAR NAME
+Model Evaluation related constants 
 """
 MODEL_EVALUATION_DIR_NAME: str = "model_evaluation"
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
 MODEL_EVALUATION_REPORT_NAME= "report.yaml"
+
+"""
+model Pusher related constants 
+"""
+
+MODEL_PUSHER_DIR_NAME = "model_pusher"
+MODEL_PUSHER_SAVED_MODEL_DIR = SAVED_MODEL_DIR
