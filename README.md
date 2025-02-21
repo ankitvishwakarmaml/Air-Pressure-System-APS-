@@ -36,12 +36,9 @@ Key benefits:
   - **Pandas, NumPy** (for data manipulation)
   - **Matplotlib, Seaborn** (for data visualization)
   - **Flask** (for backend web development and API)
-  - **Docker** (for containerization and easy deployment)
 - **Database:** MongoDB (for scalable data storage of APS sensor readings and fault logs)
 - **Deployment:** 
-  - **Docker** (for creating scalable, isolated containers)
   - **Flask** (for building APIs and serving the web interface)
-- **Cloud Integration (Optional):** AWS or Azure for cloud deployment and monitoring.
 
 ## 🚀 Getting Started
 
